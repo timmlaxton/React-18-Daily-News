@@ -1,30 +1,28 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .yellotail {
-    font-family: 'Yellowtail', cursive;
+  font-family: "Yellowtail", cursive;
 }
 
-nav { 
-    border-bottom: 3px solid #6c6c6c;
+nav {
+  border-bottom: 3px solid #6c6c6c;
 }
 .navbar {
-    justify-content: center;
+  justify-content: center;
 }
 .nav {
   border-bottom: 1px solid #e6e6e6;
 }
 .nav .nav-link {
-  color:#d63384;;
+  color: #d63384;
   font-weight: bold;
 }
 .navbar-brand {
   font-size: 40px;
   color: rgb(73 73 73);
 }
-
-
 
 /*////////////////////////////////////
             MASONRY CSS
@@ -43,18 +41,19 @@ nav {
 }
 
 /* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-  background: grey;
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: #fff;
   margin-bottom: 30px;
 }
 
-.my-masonry-grid .content { 
-  padding:15px;
+.my-masonry-grid .content {
+  padding: 15px;
   background: white;
   border: 1px solid #dbdbdb;
 }
-.my-masonry-grid .content .title { 
-  border-bottom: 1px solid #ececec;
+.my-masonry-grid .content .title {
+  border-bottom: 1px solid #fff;
   font-size: 23px;
   margin-bottom: 12px;
   padding-bottom: 10px;
@@ -68,7 +67,7 @@ nav {
 .my-masonry-grid .author {
   padding: 5px 10px;
   font-size: 12px;
-  background: #dcdcdc;
+  background: #fff;
   font-weight: 300;
 }
 
@@ -95,13 +94,13 @@ nav {
 }
 
 .newsletter_container h1 {
-    text-align: center;
-    font-family: 'Yellowtail', cursive;
+  text-align: center;
+  font-family: "Yellowtail", cursive;
 }
 
 .newsletter_container .form {
-    width: 500px;
-    margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
 }
 
 /*////////////////////////////////////
@@ -109,11 +108,11 @@ nav {
 /////////////////////////////////////*/
 
 .article_container h1 {
-font-size: 58px;
-font-weight: 300;
+  font-size: 58px;
+  font-weight: 300;
 }
 
-.article_container .image{
+.article_container .image {
   background-size: cover !important;
   background-repeat: no-repeat !important;
   width: 100%;
